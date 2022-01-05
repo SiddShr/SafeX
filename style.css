@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+/* Title */
+.hero-image{
+    background: url(https://i.pinimg.com/originals/ad/d0/80/add080ca7fc1004c38118a259bdcdd90.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.hero-text {
+    font-family: "Montserrat";
+    text-align: center;
+    color: White;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    letter-spacing: 1px;
+  }
+h1{
+    background-image: url(https://media0.giphy.com/media/GLF8IKQ1Fvws3BzQ9v/giphy.gif?cid=ecf05e47vbxvkuebi5xhk9lx4q0cl4zuwbgk5vkp3uhrpuia&rid=giphy.gif&ct=g);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+}
+
+.circle-parent{
+    text-align: center;
+}
+.circle {
+    background: black; opacity:0.6;
+    position: absolute;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display:inline-block;
+    
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    
+}
+
+/* Problem Statement */
+.heading{
+    text-align: center;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+
+}
+.quotation{
+    font-size: 30px;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+  }
+  
+  .quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: black; opacity:0.6;
+    font-size: 3em;
+  }
+  .quotation::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: black; opacity:0.6;
+    font-size: 3em;
+  }
+
+/* Team Members */
+img {
+    float: left;
+    width:  120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+input {
+    float: left;
+    width:  120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.team {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.role{
+    display: none;
+}
+.member:hover .role {
+    
+    display: block;
+}
+
+.member {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width:25rem;
+    min-width:18rem;
+    margin: 10px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+p{
+    margin:5px;
+}
+mark {
+  background-color: lightblue; /*Add your desired color*/
+}
+
