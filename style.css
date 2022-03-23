@@ -6,10 +6,10 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: white;
 }
 p{
-  color: white;
+  color: black;
   font-family: 'Maitree', serif;
 }
 
@@ -211,11 +211,11 @@ mark {
   
   .slider-nav {
     align-items: center;
-    background-color: black;
+    background-color: white;
     border-radius: 25% 10%;
     border-style: solid;
     border-color: white;
-    color: white;
+    color: black;
     display: inline-flex;
     height: 1.5rem;
     justify-content: center;
@@ -229,8 +229,8 @@ mark {
   
   .slider-nav:hover,
   .slider-nav:active {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     transition: .5s ease-in;
   }
   
@@ -239,11 +239,11 @@ mark {
   .link { 
     text-decoration: none;
     color: black;
-    background: linear-gradient(to left, yellow 50%, black 50%) right;
+    background: linear-gradient(to left, yellow 50%, white 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
   }
   .link:hover{
     background-position: left;
-    color: white;
+    color: black;
   }
