@@ -6,6 +6,11 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+p{
+  color: white;
+  font-family: 'Maitree', serif;
 }
 
  /* Splash Screen */
@@ -91,6 +96,7 @@ body{
 /* Problem Statement */
 .problemStatementHead{
     font-family: 'Maitree', serif; 
+    padding-top: 50px;
     
 }
 .quotation{
@@ -130,12 +136,16 @@ body{
 
 
 /* Team Members */
+.meetTeam{
+    padding-top: 50px;
+}
 .TeamMember {
     float: left;
     width:  120px;
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
+    
 }
 
 .team {
@@ -144,6 +154,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 .role{
     display: none;
@@ -165,10 +176,74 @@ body{
     font-family: "Montserrat";
 }
 
-
 mark {
-    background-color: #daf141;
+    background-color: yellow;
     color: black;
+}
+
+
+
+/* Presentations */
+
+  .carousel {
+    overflow: hidden;
+    padding-top: 70px;
   }
+  
+  .slides {
+    position: relative; 
+    width: 500%;
+  }
+  .slides::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slides-item {
+    float: left;
+    width: 20%;
+  }
+  
+  .carousel__nav {
+    padding: 1.25rem .5rem;
+    text-align: center;
 
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: black;
+    border-radius: 25% 10%;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: 1.85rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+    margin-right: 10px;
 
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: white;
+    color: black;
+    transition: .5s ease-in;
+  }
+  
+
+ 
+  .link { 
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to left, yellow 50%, black 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+  }
+  .link:hover{
+    background-position: left;
+    color: white;
+  }
